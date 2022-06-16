@@ -1,0 +1,145 @@
+﻿Build1=Default,b4a.example
+File1=cart.bal
+File2=dashboard.bal
+File3=login_form.bal
+File4=scan_card.bal
+File5=settings.bal
+FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+Group=Default Group
+Library1=audio
+Library2=core
+Library3=jdbcsql
+Library4=okhttputils2
+Library5=sql
+Library6=stringutils
+Library7=tts
+Library8=xui
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~SetApplicationAttribute(android:usesCleartextTraffic, "true")~\n~'End of default text.~\n~
+Module1=cart
+Module2=dashboard
+Module3=scancard
+Module4=settings
+Module5=Starter
+NumberOfFiles=5
+NumberOfLibraries=8
+NumberOfModules=5
+Version=11.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 2
+	#VersionName: Sora
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+	
+	'MariaDB Connector/J Driver
+    #AdditionalJar: mariadb-java-client-2.4.2.jar
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Public xui As XUI
+	
+	Dim request As HttpJob
+	Dim URL As String
+	Dim userDetails() As String
+	
+	Dim serverIPAddress As String = "192.168.1.103"
+	
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Private lblTitle As Label
+	Private btnLogin As Button
+	Private btnClear As Button
+	Private txtUsername As EditText
+	Private txtPassword As EditText
+	
+	Private tbShowPassword As ToggleButton 
+	
+	Dim loginSuccess As Boolean = False
+	
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	
+	Activity.LoadLayout("login_form")
+	URL = $"http://${serverIPAddress}/SmartBasket/WebAPI/user.php"$
+	
+	ClearForm
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Private Sub btnLogin_Click
+	'login(txtUsername.Text.As(String), txtPassword.Text.As(String) )
+	
+	request.Initialize("readdata", Me)
+	request.PostString(URL, $"method=AUTH&email=${txtUsername.Text.Trim}&password=${txtPassword.Text}"$)
+	' Wait for server response
+	Sleep(500)
+	
+	If( loginSuccess ) Then	
+		CallSubDelayed(dashboard, Null)
+		Activity.Finish
+	Else
+		ToastMessageShow("Incorrect username and/ password", True)
+	End If
+End Sub
+
+Private Sub btnClear_Click
+	ClearForm
+End Sub
+
+Private Sub ClearForm
+	txtUsername.Text = ""
+	txtPassword.Text = ""
+	
+	txtUsername.RequestFocus
+End Sub
+
+Private Sub tbShowPassword_CheckedChange(Checked As Boolean)
+	If(Checked) Then
+		txtPassword.PasswordMode = False
+	Else
+		txtPassword.PasswordMode = True
+	End If
+End Sub
+
+Sub JobDone(job As HttpJob)
+	
+	If(job.Success) Then
+		Dim message As String = job.GetString
+		userDetails = Regex.Split("&", message)
+		
+		If userDetails(0) = "True" Then
+			loginSuccess = True
+		Else If message = "False" Then
+			loginSuccess = False
+		End If	
+		'ToastMessageShow($"Server: ${job.GetString}"$, True)
+	Else
+		ToastMessageShow("Error: " & job.ErrorMessage, True)
+		loginSuccess = False
+	End If
+	
+End Sub
+

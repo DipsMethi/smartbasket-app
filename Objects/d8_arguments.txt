@@ -1,0 +1,77 @@
+--release
+--output
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects
+--lib
+C:\Android\platforms\android-30\android.jar
+C:\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63783454550000\dex_v1\b4ashared.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-audio-63783454550000\dex_v1\audio.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-core-63783454550000\dex_v1\core.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-jdbcsql-63785134521899\dex_v1\jdbcsql.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-sql-63783454550000\dex_v1\sql.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-stringutils-63783454550000\dex_v1\stringutils.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-tts-63783454550000\dex_v1\tts.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-xui-63783454550000\dex_v1\xui.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okhttp-63783454550000\dex_v1\okhttp.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okhttp-4.9.0-63783454550000\dex_v1\okhttp-4.9.0.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okio-2.8.0-63783454550000\dex_v1\okio-2.8.0.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-okhttp-urlconnection-4.9.3-63783454550000\dex_v1\okhttp-urlconnection-4.9.3.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-kotlin-stdlib-1.6.10-63783454550000\dex_v1\kotlin-stdlib-1.6.10.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-mariadb-java-client-2.4.2-63785456548150\dex_v1\mariadb-java-client-2.4.2.zip
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$B4AMenuItemsClickListener.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$HandleKeyDelayed.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$ResumableSub_AbortCart.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$ResumableSub_btnAbort_Click.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$ResumableSub_btnCheckout_Click.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$ResumableSub_GetCart.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$ResumableSub_RequesTotal.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$ResumeMessage.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart$WaitForLayout.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\cart.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard$B4AMenuItemsClickListener.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard$HandleKeyDelayed.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard$ResumableSub_btnLogout_Click.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard$ResumeMessage.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard$WaitForLayout.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\dashboard.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\httpjob$_multipartfiledata.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\httpjob.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\httputils2service$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\httputils2service$2.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\httputils2service$httputils2service_BR.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\httputils2service.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main$B4AMenuItemsClickListener.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main$HandleKeyDelayed.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main$ResumableSub_btnLogin_Click.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main$ResumeMessage.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main$WaitForLayout.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\main.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\R$drawable.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\R$style.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\R.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$B4AMenuItemsClickListener.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$HandleKeyDelayed.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$ResumableSub_AbortCart.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$ResumableSub_tmr_Tick.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$ResumeMessage.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard$WaitForLayout.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\scancard.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings$B4AMenuItemsClickListener.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings$HandleKeyDelayed.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings$ResumableSub_btnSave_Click.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings$ResumeMessage.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings$WaitForLayout.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\settings.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\starter$1.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\starter$2.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\starter$starter_BR.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\starter.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\designerscripts\LS_cart.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\designerscripts\LS_dashboard.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\designerscripts\LS_login_form.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\designerscripts\LS_scan_card.dex
+C:\Users\SBTI Gaming 15\Desktop\Software\v2.0\SmartBasketApp\Objects\dexed\b4a\example\designerscripts\LS_settings.dex
